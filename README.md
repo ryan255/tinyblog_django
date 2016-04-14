@@ -1,7 +1,8 @@
 # tinyblog_django
 极简的blog系统<br>
 版本：django1.9 python2.7 <br>
-参考资料： Growth 实战篇 Django版 http://phodal.github.io/growth-in-action-django/ <br>
+参考资料： <br>
+Growth 实战篇 Django版 http://phodal.github.io/growth-in-action-django/ <br>
 Django:快速搭建简单的Blog http://my.oschina.net/matrixchan/blog/184445?fromerr=4SM241Ah <br>
 
 
