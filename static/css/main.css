@@ -1,0 +1,25 @@
+header{
+    width:80%;
+    margin: 10px auto;
+    font-size: 18px;
+}
+#logo{
+    display: inline-block;
+    float: left;
+}
+#logo>img{
+    border-radius: 10px;
+}
+header>ul>li {
+    margin-left: 20px;
+}
+footer{
+    border-top: solid 1px lightgray;
+    text-align: center;
+    padding-top: 10px;
+    color: gray;
+}
+#main{
+    width: 80%;
+    margin: 10px auto;
+}

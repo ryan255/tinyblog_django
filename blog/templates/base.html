@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html>
-      <style type="text/css">
-        body{color:#efd;background:#453;padding:0 5em;margin:0}
-        h1{padding:2em 1em;background:#675}
-        h2{color:#bf8;border-top:1px dotted #fff;margin-top:2em}
-        p{margin:1em 0}
-      </style>
+<head>
+    <meta charset="UTF-8">
+    <title>Ryan255</title>
+    <link rel="stylesheet" href="../../static/css/bootstrap.3.0.3.min.css">
+    <link rel="stylesheet" href="../../static/css/main.css"/>
+    <link rel="stylesheet" href="../../static/css/index.css"/>
+</head>
 
-      <body>
-        <h1>Ryan255</h1>
-        <h3>多谢你如此精彩耀眼 做我平淡岁月里星辰</h3>
-        {% block content %}
-        {% endblock %}
+<body>
+    <header>
+        <div id="logo"><img src="../../static/image/yinsang.jpg" alt="logo" width="50" height="45"/></div>
+        <ul class="nav nav-pills">
+            <li><a href="#">Ryan255的博客</a></li>
+        </ul>
+    </header>
+    <div id="article">
+            <div class="item">随笔</div>
+            <div class="article">
+                {% block content %}
+                {% endblock %}
+            </div>
+        </div>
       </body>
 </html>
