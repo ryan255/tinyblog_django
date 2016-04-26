@@ -1,5 +1,11 @@
-header{
+main{
     width:80%;
+    margin: 10px auto;
+}
+
+
+header{
+    //width:80%;
     margin: 10px auto;
     font-size: 18px;
 }

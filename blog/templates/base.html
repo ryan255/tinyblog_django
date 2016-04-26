@@ -9,18 +9,21 @@
 </head>
 
 <body>
+<main>
     <header>
         <div id="logo"><img src="../../static/image/yinsang.jpg" alt="logo" width="50" height="45"/></div>
         <ul class="nav nav-pills">
             <li><a href="#">Ryan255的博客</a></li>
+            <li><a href="http://localhost:8000/admin">管理</a></li>
         </ul>
     </header>
     <div id="article">
-            <div class="item">随笔</div>
-            <div class="article">
-                {% block content %}
-                {% endblock %}
-            </div>
+        <div class="item">随笔</div>
+        <div class="article">
+            {% block content %}
+            {% endblock %}
         </div>
-      </body>
+    </div>
+</main>
+</body>
 </html>
