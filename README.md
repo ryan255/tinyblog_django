@@ -1,7 +1,7 @@
 # tinyblog_django
-极简的blog系统<br>
-版本：django1.9 python2.7 <br>
-评论模块使用多说社会化评论
+#极简的blog系统<br>
+###版本：django1.9 python2.7 <br>
+###评论模块使用多说社会化评论
 
 
 tips：
@@ -11,6 +11,6 @@ tips：
 from django.conf.urls import patterns, include, url
 
 参考资料： <br>
-Growth 实战篇 Django版 http://phodal.github.io/growth-in-action-django/ <br>
-Django:快速搭建简单的Blog http://my.oschina.net/matrixchan/blog/184445?fromerr=4SM241Ah <br>
-多说for python sdk http://dev.duoshuo.com/python-sdk <br>
+1. Growth 实战篇 Django版 http://phodal.github.io/growth-in-action-django/ <br>
+2. Django:快速搭建简单的Blog http://my.oschina.net/matrixchan/blog/184445?fromerr=4SM241Ah <br>
+3. 多说for python sdk http://dev.duoshuo.com/python-sdk <br>
