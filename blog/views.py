@@ -11,3 +11,6 @@ def index(request):
     t = loader.get_template("index.html")
     c = Context({'posts':posts})
     return HttpResponse(t.render(c))
+
+def comment(req):
+    return render_to_response('comment.html')
