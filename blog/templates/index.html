@@ -7,10 +7,12 @@
 <body>
 {% extends "base.html" %}
   {% block content %}
+    {% load duoshuo_tags %}
       {% for post in posts %}
       <h2>{{  post.title }}</h2>
       <p>{{ post.timestamp | date:"F jS"}}</p>
       <p>{{ post.body }}</p>
+    {% duoshuo_comments post.title %}
       {% endfor %}
   {% endblock %}
 </body>

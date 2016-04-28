@@ -38,7 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
+    'duoshuo'
 ]
+
+DUOSHUO_SECRET = 'xxxxx'
+DUOSHUO_SHORT_NAME = 'xxxxx'
 
 MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
