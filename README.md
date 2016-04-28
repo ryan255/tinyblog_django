@@ -1,9 +1,9 @@
 # tinyblog_django
 #极简的blog系统<br>
-###版本：django1.9 python2.7 <br>
-###评论模块使用多说社会化评论
-
-
+##版本：django1.9 python2.7 <br>
+##评论模块使用多说社会化评论
+##完成效果：<br>
+![demo](tinyblog_django/屏幕快照 2016-04-28 下午6.54.09.png)
 tips：
 教程使用是django1.7之前的版本 在1.7之后 dajngo取消了 syncdb 命令
 在django1.9版本中 对应的命令换为 migrate <br>
