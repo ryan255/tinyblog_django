@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Ryan255</title>
-    <link rel="stylesheet" href="../../static/css/bootstrap.3.0.3.min.css">
-    <link rel="stylesheet" href="../../static/css/main.css"/>
-    <link rel="stylesheet" href="../../static/css/index.css"/>
+    {% load staticfiles %}
+    <link rel="stylesheet" href="{% static 'blog/css/bootstrap.3.0.3.min.css' %}">
+    <link rel="stylesheet" href="{% static 'blog/css/main.css' %}"/>
+    <link rel="stylesheet" href="{% static 'blog/css/index.css' %}"/>
 </head>
 
 <body>
 <main>
     <header>
-        <div id="logo"><img src="../../static/image/yinsan.jpg" alt="logo" width="50" height="45"/></div>
+        {% load staticfiles %}
+        <div id="logo"><img src="{% static 'blog/image/yinsan.jpg' %}" alt="logo" width="50" height="45"/></div>
         <ul class="nav nav-pills">
             <li><a href="/blog">Ryan255的博客</a></li>
             <li><a href="comment">留言</a></li>

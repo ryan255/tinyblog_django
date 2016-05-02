@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>detail</title>
+</head>
+<body>
+{% extends "base.html" %}
+    {% block content %}
+        <h2>{{ blog.title }}</h2>>
+        <p>{{ blog.timestamp | date:"F jS"}}</p>
+        <p>{{ blog.body }}</p>
+        {% load duoshuo_tags %}
+        {% duoshuo_comments %}
+    {% endblock %}
+
+</body>
+</html>
