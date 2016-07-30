@@ -1,6 +1,7 @@
 # tinyblog_django
-##极简的blog系统<br>版本：django1.9 python2.7 <br>评论模块使用多说社会化评论
-
+>  - 极简的blog系统
+>  - 版本：django1.9 python2.7 
+>  - 评论模块使用多说社会化评论
 
 ![cmd-markdown-logo](example.png)
 
